@@ -1,0 +1,47 @@
+baseURL = "https://mshafquat.github.io"
+languageCode = "en-us"
+title = "Shafquat Mahbub"
+theme = "paperesque"
+copyright = "© 2024 Shafquat Mahbub"
+
+[markup]
+  # This is the default from Hugo 0.60.0 onwards, but we're setting config
+  # for it below, so make it explicit
+  defaultMarkdownHandler = "goldmark"
+
+# Required to render HTML tags in the hugoExampleSite examples.
+[markup.goldmark.renderer]
+  unsafe = true
+
+# I can't remember if this is required for syntax highlighting or not.
+pygmentsUseClasses = true
+
+# Uncomment these lines for droplist / resource removal support! See the
+# README for more details
+
+# [outputs]
+# page = ["HTML", "droplist"]
+
+[params]
+# Turn this on if you want to disable margin notes everywhere!
+# disableMarginNotes = true
+
+# Customise your home page menu here:
+
+# [[params.menu]]
+#   name = "Recent Posts"
+#   url = "posts/"
+# 
+# [[params.menu]]
+#   name = "Posts by Tag"
+#   url = "tags/"
+# 
+# [[params.menu]]
+#   name = "About"
+#   url = "about/"
+
+# And your top-right menu links here.
+
+[[params.topmenu]]
+  name = "Recent Posts"
+  url = "posts/"
